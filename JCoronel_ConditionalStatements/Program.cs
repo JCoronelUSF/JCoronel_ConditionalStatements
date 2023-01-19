@@ -11,23 +11,23 @@
 
                 if ((ngrade >= 90) && (ngrade <= 100))
                 {
-                    Console.WriteLine("A");
+                    Console.WriteLine("Your letter grade is: A");
                 }
                 else if ((ngrade >= 80) && (ngrade < 90))
                 {
-                    Console.WriteLine("B");
+                    Console.WriteLine("Your letter grade is: B");
                 }
                 else if ((ngrade >= 70) && (ngrade < 80))
                 {
-                    Console.WriteLine("C");
+                    Console.WriteLine("Your letter grade is: C");
                 }
                 else if ((ngrade >= 60) && (ngrade < 70))
                 {
-                    Console.WriteLine("D");
+                    Console.WriteLine("Your letter grade is: D");
                 }
                 else if ((ngrade >= 0) && ((ngrade < 60)))
                 {
-                    Console.WriteLine("F");
+                    Console.WriteLine("Your letter grade is: F");
                 }
                 else
                 {
